@@ -59,43 +59,6 @@ public class PlayerSkillController : MonoBehaviour
         return Mathf.Max(0.1f, baseCoolTime * multiplier);
     }
 
-    //private void HandleInput()
-    //{
-    //    // 액티브 1번 (키보드 1)
-    //    if (Input.GetKeyDown(KeyCode.Alpha1))
-    //    {
-    //        if (active1CooldownTimer <= 0)
-    //        {
-    //            StartCoroutine(UseActiveSkill1());
-    //            active1CooldownTimer = GetReducedCooldown(characterData.active1.coolTime);
-    //        }
-    //        else
-    //        {
-    //            Debug.Log($"스킬 1 쿨타임: {active1CooldownTimer:F1}초 남음");
-    //        }
-    //    }
-
-    //    // 액티브 2번 (키보드 2)
-    //    if (Input.GetKeyDown(KeyCode.Alpha2))
-    //    {
-    //        if (active2CooldownTimer <= 0)
-    //        {
-    //            StartCoroutine(UseActiveSkill2());
-    //            active2CooldownTimer = GetReducedCooldown(characterData.active2.coolTime);
-    //        }
-    //        else
-    //        {
-    //            Debug.Log($"스킬 2 쿨타임: {active2CooldownTimer:F1}초 남음");
-    //        }
-    //    }
-
-    //    // 궁극기 (키보드 3)
-    //    if (Input.GetKeyDown(KeyCode.Alpha3))
-    //    {
-    //        AttemptUltimate();
-    //    }
-    //}
-
     // --- 패시브 적용 ---
     private void ApplyPassives()
     {
@@ -143,18 +106,17 @@ public class PlayerSkillController : MonoBehaviour
         statHandler.Attack *= (1 + characterData.active2.value1);
         yield return new WaitForSeconds(4f);
 
-        // 공격력 원복
+        // 공격력 복구
         statHandler.Attack = originalAttack;
 
         // 페이즈 2: 공격속도 감소 (1초) - 패널티
         // 공격 딜레이가 늘어나는 것이므로 수치를 더하거나 곱해서 느리게 만듦
-        // (구현 방식에 따라 다름, 여기선 딜레이 50% 증가로 가정)
         statHandler.AttackSpeed *= 1.5f;
         Debug.Log("마력 증강 부작용! 공격 속도 저하");
 
         yield return new WaitForSeconds(1f);
 
-        // 공속 원복
+        // 공속 복구
         statHandler.AttackSpeed = originalAtkSpd;
         Debug.Log("스킬 2 효과 종료");
     }
@@ -229,6 +191,7 @@ public class PlayerSkillController : MonoBehaviour
 
         Debug.Log($"스킬 등록됨 [{key}] → {data.skillName}");
     }
+
     public void UseSkillFromHUD(SkillData skill)
     {
         if (skill == null) return;

@@ -17,11 +17,9 @@ public class PlayerExp : MonoBehaviour, IExpReceiver
     [Header("레벨업 마다의 필요 경험치 증가량")]
     [SerializeField] private float expGrowthFactor = 1.2f; // 레벨업 할 때마다 필요 경험치 증가량 (1.2배)
 
-    private ResouceController resourceController;
-
     private void Awake()
     {
-        resourceController = GetComponent<ResouceController>();
+
     }
     private void Start()
     {

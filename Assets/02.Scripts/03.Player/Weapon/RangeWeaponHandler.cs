@@ -78,19 +78,19 @@ public class RangeWeaponHandler : WeaponHandler
     // 새로운 자동 타겟팅 공격 로직
     private void HandleAutoTargetingAttack()
     {
-        // 1. 사정거리(AttackRange) 내의 모든 적(enemyLayer)을 탐지
+        // 사정거리(AttackRange) 내의 모든 적(enemyLayer)을 탐지
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, AttackRange, enemyLayer);
 
         if (hitColliders.Length == 0) return; // 적이 없으면 발사 안 함
 
-        // 2. 거리순으로 정렬 후, 발사체 개수(NumberOfPrijectilesPerShot)만큼만 가장 가까운 적을 선택
+        // 거리순으로 정렬 후, 발사체 개수(NumberOfPrijectilesPerShot)만큼만 가장 가까운 적을 선택
         // 거리 계산 성능을 위해 sqrMagnitude 사용 권장 (여기서는 가독성을 위해 Distance 사용)
         var closestEnemies = hitColliders
             .OrderBy(x => Vector2.Distance(transform.position, x.transform.position))
             .Take(numberOfPrijectilesPerShot)
             .ToList();
 
-        // 3. 선택된 적들을 향해 각각 발사
+        // 선택된 적들을 향해 각각 발사
         foreach (var enemy in closestEnemies)
         {
             // 적을 향하는 방향 벡터 계산

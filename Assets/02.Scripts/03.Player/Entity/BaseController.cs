@@ -97,7 +97,7 @@ public class BaseController : MonoBehaviour
         Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseWorld.z = 0f;
 
-        // 2) lookDirection 업데이트
+        // lookDirection 업데이트
         lookDirection = (mouseWorld - transform.position).normalized;
 
     }
