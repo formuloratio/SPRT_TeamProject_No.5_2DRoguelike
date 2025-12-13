@@ -41,21 +41,134 @@
 - SO로 정의한 데이터를 이용한 적 자동 생성 기능.
 
 ## 역할분담
-[김지훈](https://github.com/EunHyul769): PM
-[엄성진](https://github.com/formuloratio): Player/Weapon
-[김하늘](https://github.com/Hagill): Enemy
-[박재아](https://github.com/jaeapark): UI(Scene)/GameFlow
-[김동관](https://github.com/kdk7992-sketch): Map/Item/Sound
+* [김지훈](https://github.com/EunHyul769): PM
+* [엄성진](https://github.com/formuloratio): Player/Weapon
+* [김하늘](https://github.com/Hagill): Enemy
+* [박재아](https://github.com/jaeapark): UI(Scene)/GameFlow
+* [김동관](https://github.com/kdk7992-sketch): Map/Item/Sound
 
 ## 구현내용
 ### [엄성진]
+<img width="2326" height="934" alt="UML_N5" src="https://github.com/user-attachments/assets/41746b50-eeea-4bb2-99b0-829be68aa2c0" />
+
+
+#### 스크립트
+
+<details>
+  <summary> 플레이어 관련 </summary>
+  
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+
+
+   </details>
+
+<details>
+  <summary> 플레이어 관련 </summary>
+  
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+</details>
+
+<details>
+  <summary> 플레이어 관련 </summary>
+  
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+</details>
+
+<details>
+  <summary> 플레이어 관련 </summary>
+  
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+</details>
+
+<details>
+  <summary> 플레이어 관련 </summary>
+  
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+    <details>
+      <summary> BaseController.cs </summary>
+      
+    </details>
+
+
+
+
+</details>
+
+
 
 
 ## 기술스택
-* Language: C#
-* Engine: Unity
-* Version Control: Git, GitHub
-* IDE: Visual Studio 2022
+* Language: **C#**
+* Engine: **Unity**
+* Version Control: **Git, GitHub**
+* IDE: **Visual Studio 2022**
 
 ## 사용에셋 목록
 * 맵 타일셋: [Free Topdown Fantasy - Forest - Pixelart Tileset] (https://aamatniekss.itch.io/topdown-fantasy-forest)
