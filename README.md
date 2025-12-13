@@ -1,18 +1,18 @@
-# Forest without tomorrow
-<img width="860" height="540" alt="UITitleImg" src="https://github.com/user-attachments/assets/bfcfefbf-112a-4743-b8e8-e829d2363c67" />
-
+# 게임명: Forest without tomorrow
+<img width="1592" height="890" alt="스크린샷 2025-12-13 164427" src="https://github.com/user-attachments/assets/ff2a012b-0e2a-4902-8ecc-fb63ae828e15" />
 
 ## 목차
 1. [프로젝트 장르 및 소개](#프로젝트-장르-및-소개)
 2. [주요기능](#주요기능)
-3. [개발기간](#개발기간)
-4. [역할분담](#역할분담)
+3. [역할분담](#역할분담)
+4. [구현내용](#구현내용)
 5. [기술스택](#기술스택)
 6. [사용에셋 목록](#사용에셋-목록)
 
 ## 프로젝트 장르 및 소개
 * 장르: 탑뷰 2D 슈팅 액션 뱀서라이크
 * 소개: 캐릭터를 중심으로 한계 없는 성장을 통해 무한히 몰려오는 적들을 처치하고 생존하는 탑뷰 2D 슈팅 액션 뱀서라이크
+* 개발 기간: 총 4일 { 2025.12.01 ~ 2025.12.04 }
 
 ## 주요기능
 ### 게임플레이
@@ -21,6 +21,13 @@
 - 레벨업하면 나오는 랜덤 장비를 이용해 플레이어 캐릭터를 강화.
 - 스테이지 내의 레벨업으로 해금 가능한 플레이어 캐릭터의 궁극기를 이용한 위기 모면 모먼트.
 - 플레이어 캐릭터의 체력이 0이 되거나, 보스를 처치하면 GameEnd 팝업을 표시, 팝업의 버튼을 이용한 게임 재시작 가능.
+
+<img width="1593" height="891" alt="스크린샷 2025-12-13 164445" src="https://github.com/user-attachments/assets/7eefe035-cfa8-4f90-b652-89a2ae86f1bb" />
+<img width="1595" height="891" alt="스크린샷 2025-12-13 165628" src="https://github.com/user-attachments/assets/1eefde8c-a844-4dd7-9d29-78772906d87c" />
+<img width="1589" height="891" alt="스크린샷 2025-12-13 165647" src="https://github.com/user-attachments/assets/1525c214-84e8-4a84-a4c4-858970e32ea2" />
+<img width="1590" height="891" alt="스크린샷 2025-12-13 165745" src="https://github.com/user-attachments/assets/1168a1d6-162f-46b7-a101-784c2457480b" />
+<img width="1588" height="890" alt="스크린샷 2025-12-13 170009" src="https://github.com/user-attachments/assets/2e2dbeb8-a60e-412e-ab32-196309975bd2" />
+<img width="1587" height="887" alt="스크린샷 2025-12-13 170027" src="https://github.com/user-attachments/assets/86d94af1-cb55-4f37-8549-d32174536025" />
 
 ### 핵심기술
 - GameManager에서 게임 흐름/로직 결정.
@@ -33,46 +40,23 @@
 - ObjectPoolManager에서 사용할 프리팹을 미리 생성하고 관리.
 - SO로 정의한 데이터를 이용한 적 자동 생성 기능.
 
-## 개발기간
-- 총 4일 { 2025.12.01 ~ 2025.12.04 }
-
 ## 역할분담
-|PM|
-|:---:|
-|<img src="https://avatars.githubusercontent.com/u/233664198?v=4" width="100">|
-|[김지훈](https://github.com/EunHyul769)|
+[김지훈](https://github.com/EunHyul769): PM
+[엄성진](https://github.com/formuloratio): Player/Weapon
+[김하늘](https://github.com/Hagill): Enemy
+[박재아](https://github.com/jaeapark): UI(Scene)/GameFlow
+[김동관](https://github.com/kdk7992-sketch): Map/Item/Sound
 
-|Player/Weapon|
-|:---:|
-|<img src="https://avatars.githubusercontent.com/u/230301673?v=4" width="100"/>|
-|[엄성진](https://github.com/formuloratio)|
+## 구현내용
+### [엄성진]
 
-|Enemy|
-|:---:|
-|<img src="https://avatars.githubusercontent.com/u/101345563?v=4" width="100">|
-|[김하늘](https://github.com/Hagill)|
-
-|UI(Scene)/GameFlow|
-|:---:|
-|<img src="https://avatars.githubusercontent.com/u/233680670?v=4" width="100">|
-|[박재아](https://github.com/jaeapark)|
-
-|Map/Item/Sound|
-|:---:|
-|<img src="https://avatars.githubusercontent.com/u/231193899?v=4" width="100">|
-|[김동관](https://github.com/kdk7992-sketch)|
 
 ## 기술스택
-### Language
-[![My Skills](https://skillicons.dev/icons?i=cs&perline=1)](https://skillicons.dev)
-### Engine
-[![My Skills](https://skillicons.dev/icons?i=unity&perline=1)](https://skillicons.dev)
-### Version Control
-[![My Skills](https://skillicons.dev/icons?i=git,github&perline=1)](https://skillicons.dev)
-### IDE
-[![My Skills](https://skillicons.dev/icons?i=visualstudio&perline=1)](https://skillicons.dev)
+* Language: C#
+* Engine: Unity
+* Version Control: Git, GitHub
+* IDE: Visual Studio 2022
 
 ## 사용에셋 목록
-맵 타일셋 : [Free Topdown Fantasy - Forest - Pixelart Tileset] (https://aamatniekss.itch.io/topdown-fantasy-forest)
-
-### 이 외 모든 에셋은 AI로 제작하였습니다.
+* 맵 타일셋: [Free Topdown Fantasy - Forest - Pixelart Tileset] (https://aamatniekss.itch.io/topdown-fantasy-forest)
+* 그외: AI
