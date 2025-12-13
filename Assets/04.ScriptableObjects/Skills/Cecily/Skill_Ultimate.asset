@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5596558e59e426e4b96832ed267bbad4, type: 3}
+  m_Name: Skill_Ultimate
+  m_EditorClassIdentifier: 
+  skillName: "\uBE44\uC7A5\uC758 \uB9C8\uBC95\uC774\uC57C!"
+  description: "\uCE90\uB9AD\uD130 \uC774\uB3D9 \uBC29\uD5A5 30px \uC55E\uC5D0 100(+ATK*2)\uC758
+    \uB370\uBBF8\uC9C0\uB97C \uC8FC\uB294 400x400px \uBC94\uC704\uC758 \uD3ED\uBC1C
+    \uBC1C\uC0DD"
+  type: 2
+  coolTime: 50
+  icon: {fileID: 21300000, guid: 690063288f901413bb0cfcf64da9fa3e, type: 3}
+  value1: 0
+  value2: 0
+  duration: 0

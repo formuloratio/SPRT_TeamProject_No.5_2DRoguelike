@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef631c60daecf54baeac8711d7faa81, type: 3}
+  m_Name: Enemy_Range
+  m_EditorClassIdentifier: 
+  enemyName: "\uC6D0\uAC70\uB9AC\uC720\uB2DB"
+  enemyType: 1
+  enemyPrefab: {fileID: 5095804444251440335, guid: a326b9232c67fec4ba47bd6f7d233078, type: 3}
+  moveSpeed: 1.5
+  attackRange: 10
+  attackRate: 1
+  shootingAttackRate: 2
+  attackDamage: 20
+  maxHealth: 70
+  expAmount: 0
+  expOrbPrefab: {fileID: 5499391159527633536, guid: 58b2cbd02c7394d3f8b0e8be7659d447, type: 3}
+  dropItemPrefabs:
+  - {fileID: 623183117809672311, guid: b65f7eeccd833473386eaead6bec16f1, type: 3}
+  - {fileID: 6585045322200012874, guid: 0637a4145b7274081b46bafc35669ba5, type: 3}
+  dropChance: 0.1

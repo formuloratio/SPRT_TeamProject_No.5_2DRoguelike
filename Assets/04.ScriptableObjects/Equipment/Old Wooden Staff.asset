@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5395654f72f86d4f95da885c27f01fe, type: 3}
+  m_Name: Old Wooden Staff
+  m_EditorClassIdentifier: 
+  itemName: "\uACE0\uBAA9\uB098\uBB34 \uC9C0\uD321\uC774"
+  description: "\uC2A4\uD0AC \uCFE8\uD0C0\uC784 \uAC10\uC18C"
+  icon: {fileID: 21300000, guid: 2900acc0bbe52400094fbeb4334ff208, type: 3}
+  modifiers:
+  - type: 5
+    value: 0.1
