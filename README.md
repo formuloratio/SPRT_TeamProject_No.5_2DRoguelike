@@ -1,7 +1,7 @@
 # 게임명: Forest without tomorrow
 <img width="1592" height="890" alt="스크린샷 2025-12-13 164427" src="https://github.com/user-attachments/assets/ff2a012b-0e2a-4902-8ecc-fb63ae828e15" />
 
-## 목차
+## 📑 목차
 1. [프로젝트 장르 및 소개](#프로젝트-장르-및-소개)
 2. [주요기능](#주요기능)
 3. [역할분담](#역할분담)
@@ -43,11 +43,18 @@
 - SO로 정의한 데이터를 이용한 적 자동 생성 기능.
 
 ## 역할분담
-* [김지훈](https://github.com/EunHyul769): PM
-* [엄성진](https://github.com/formuloratio): Player/Weapon
-* [김하늘](https://github.com/Hagill): Enemy
-* [박재아](https://github.com/jaeapark): UI(Scene)/GameFlow
-* [김동관](https://github.com/kdk7992-sketch): Map/Item/Sound
+
+<table>
+  <tr>
+    <th align="left" width="180"> 이름 </th>
+    <th align="left" width="500"> 역할 </th>
+  </tr>
+  <tr><td> 김지훈 </td><td> PM </td></tr>
+  <tr><td> 엄성진 </td><td> Player/Weapon </td></tr>
+  <tr><td> 김하늘 </td><td> Enemy </td></tr>
+  <tr><td> 박재아 </td><td> UI(Scene)/GameFlow </td></tr>
+  <tr><td> 김동관 </td><td> Map/Item/Sound </td></tr>
+</table>
 
 ## 구현내용 [엄성진]
 <img width="2326" height="934" alt="UML_N5" src="https://github.com/user-attachments/assets/41746b50-eeea-4bb2-99b0-829be68aa2c0" />
@@ -1514,11 +1521,45 @@
 
 
 ## 기술스택
-* Language: **C#**
-* Engine: **Unity**
-* Version Control: **Git, GitHub**
-* IDE: **Visual Studio 2022**
+
+<table>
+  <tr>
+    <th align="left" width="180"> 구분 </th>
+    <th align="left" width="500"> 기술 </th>
+  </tr>
+  <tr>
+    <td>Language</td>
+    <td><img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td>Framework</td>
+    <td><img src="https://img.shields.io/badge/unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black"></td>
+  </tr>
+  <tr>
+    <td>IDE</td>
+    <td><img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td>Version Control</td>
+    <td><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td>Design</td>
+    <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td>Documentation</td>
+    <td><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></td>
+  </tr>
+</table>
 
 ## 사용에셋 목록
-* 맵 타일셋: [Free Topdown Fantasy - Forest - Pixelart Tileset] (https://aamatniekss.itch.io/topdown-fantasy-forest)
-* 그외: AI
+
+<table>
+  <tr>
+    <th align="left" width="180"> 구분 </th>
+    <th align="left" width="500"> 상세 </th>
+  </tr>
+  <tr><td> 맵 타일셋 </td><td> [Free Topdown Fantasy - Forest - Pixelart Tileset] (https://aamatniekss.itch.io/topdown-fantasy-forest) </td></tr>
+  <tr><td> 그 외 </td><td> AI </td></tr>
+</table>
