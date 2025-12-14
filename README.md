@@ -24,7 +24,7 @@
   <tr><td> 개발 기간 </td><td> 총 4일 { 2025.12.01 ~ 2025.12.04 } </td></tr>
 </table>
 
-* [저장소 원본 링크](https://github.com/formuloratio/SPRT_TeamProject_No.5_2DRoguelike?tab=readme-ov-file)
+* [저장소 원본 링크](https://github.com/EunHyul769/ProjectSAR)
 
 ---
 
