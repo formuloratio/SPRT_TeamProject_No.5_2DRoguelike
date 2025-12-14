@@ -10,11 +10,23 @@
 6. [기술스택](#기술스택)
 7. [사용에셋 목록](#사용에셋-목록)
 
+---
+
 ## 프로젝트 장르 및 소개
-* 장르: 탑뷰 2D 슈팅 액션 뱀서라이크
-* 소개: 캐릭터를 중심으로 한계 없는 성장을 통해 무한히 몰려오는 적들을 처치하고 생존하는 탑뷰 2D 슈팅 액션 뱀서라이크
-* 개발 기간: 총 4일 { 2025.12.01 ~ 2025.12.04 }
+
+<table>
+  <tr>
+    <th align="left" width="180"> 항목 </th>
+    <th align="left" width="500"> 내용 </th>
+  </tr>
+  <tr><td> 장르 </td><td> 탑뷰 2D 슈팅 액션 뱀서라이크 </td></tr>
+  <tr><td> 소개 </td><td> 캐릭터를 중심으로 한계 없는 성장을 통해 무한히 몰려오는 적들을 처치하고 생존하는 탑뷰 2D 슈팅 액션 뱀서라이크 </td></tr>
+  <tr><td> 개발 기간 </td><td> 총 4일 { 2025.12.01 ~ 2025.12.04 } </td></tr>
+</table>
+
 * [저장소 원본 링크](https://github.com/formuloratio/SPRT_TeamProject_No.5_2DRoguelike?tab=readme-ov-file)
+
+---
 
 ## 주요기능
 ### 게임플레이
@@ -42,6 +54,8 @@
 - ObjectPoolManager에서 사용할 프리팹을 미리 생성하고 관리.
 - SO로 정의한 데이터를 이용한 적 자동 생성 기능.
 
+---
+
 ## 역할분담
 
 <table>
@@ -55,6 +69,8 @@
   <tr><td> 박재아 </td><td> UI(Scene)/GameFlow </td></tr>
   <tr><td> 김동관 </td><td> Map/Item/Sound </td></tr>
 </table>
+
+---
 
 ## 구현내용 [엄성진]
 <img width="2326" height="934" alt="UML_N5" src="https://github.com/user-attachments/assets/41746b50-eeea-4bb2-99b0-829be68aa2c0" />
@@ -1510,6 +1526,8 @@
   
   </details>
 
+---
+
 ## 트러블슈팅
 
 ### 캐릭터가 일정 범위 이상 벗어나면 투사체가 생성 즉시 사라지는 버그
@@ -1519,6 +1537,7 @@
 * 해결 :
   * 위치라는 벡터 값을 가지고 float인 유효 거리를 계산하려다 보니 주어진 시간 상으로는 구현이 어렵다고 판단하여, 투사체의 유효 거리를 지정하는 방식이 아닌 투사체가 생성된 후 시간(1초)에 따라 파괴되도록 만들어서 해결하였다.
 
+---
 
 ## 기술스택
 
@@ -1553,12 +1572,14 @@
   </tr>
 </table>
 
+---
+
 ## 사용에셋 목록
 
 <table>
   <tr>
-    <th align="left" width="180"> 구분 </th>
-    <th align="left" width="500"> 상세 </th>
+    <th align="left" width="180"> 항목 </th>
+    <th align="left" width="500"> 내용 </th>
   </tr>
   <tr><td> 맵 타일셋 </td><td> [Free Topdown Fantasy - Forest - Pixelart Tileset] (https://aamatniekss.itch.io/topdown-fantasy-forest) </td></tr>
   <tr><td> 그 외 </td><td> AI </td></tr>
